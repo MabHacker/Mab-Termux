@@ -1,3 +1,5 @@
+pkg update -y
+pkg upgrade -y
 cd
 cd ..
 cd usr
@@ -6,9 +8,4 @@ rm bash.bashrc motd
 cd /data/data/com.termux/files/home/Mab-Termux
 cp bash.bashrc motd /data/data/com.termux/files/usr/etc
 cd
-apt update -y
-apt upgrade -y
-
-
-
-
+exit
